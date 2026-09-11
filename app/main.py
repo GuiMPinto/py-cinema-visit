@@ -19,4 +19,4 @@ def cinema_visit(customers: list, hall_number: int, cleaner: str,
 
     for customer_data in customer_instances:
         sell_product(customer_data.food, customer_data)
-    hall.movie_session(movie, customer_instances, cleaner_instance)        
+    hall.movie_session(movie, customer_instances, cleaner_instance)
